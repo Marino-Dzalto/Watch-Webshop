@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta name="author" content="Marino Dzalto">
+    <meta name="keywords" content="HTML, CSS, JS, Lab">
+    <meta name="organization" content="FER">
+    <title>Brand Ambassador</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/Other/BA_Logo.png" alt="My Website"></a>
+        </div>
+        
+        <a href="cart.html">
+            <div class="cart">
+                <i class="bi bi-cart2"></i>
+                <div id="cartAmount" class="cartAmount">0</div>
+            </div>
+        </a>
+
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="bi bi-binoculars-fill"></i></button>
+        </div>
+
+        <div class="clock">
+            <span id="hours"></span>:
+            <span id="minutes"></span>:
+            <span id="seconds"></span>
+          </div>     
+    </div>
+
+        <button class="dropBtn" onclick="showDropdown()">Click me</button>
+            <div id="dropdownBtn" class="dropdown">
+                <a href="#">Kontakt</a>
+                <a href="#">Newsletter</a>
+                <button class="povratak"> <a href="index.html">Povratak</a></button>
+                <p class="dropDownText"> <br>
+                     Dobro došli na našu Brand Ambassador webshop stranicu<br>
+                Nadamo se da ćemo Vam našom uslugom olakšati kupovinu luksuznog sata.<br>
+                     U našoj ponudi imamo nekoliko luksuznih brandova kao što su:<br>
+            Rolex (GMT Master, DateJust, Submariner, Daytona), Vacheron Constantin, Breitling, Hubolt i Omega<br>
+                    ,a također imamo u ponudi satove brendova Casio i Seiko.<br>
+                    <br>
+                    Trenutni dizajn stranice nije najbolji, ali vašom kupovinom nekog od skupljih sata<br>
+                     imati ćemo više resursa koji bi uložili u dizajnt<br>
+                </p>
+            </div>
+
+    <div class="shop" id="shop"></div>
+</body>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-buttons">
+            </div>
+        </div>
+    </footer>
+    <script src="Scripts/data.js"></script>
+    <script src="Scripts/main.js"></script>

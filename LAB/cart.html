@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta name="author" content="Marino Dzalto">
+    <meta name="keywords" content="HTML, CSS, JS, Lab">
+    <meta name="organization" content="FER">
+    <link rel="shortcut icon" type="image/png" href="images/Other/WatchCartIcon.png" />
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <title>Brand Ambassador</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/Other/BA_Logo.png" alt="My Website"></a>
+        </div>
+        
+        <a href="cart.html">
+            <div class="cart">
+              <i class="bi bi-cart2"></i>
+              <div id="cartAmount" class="cartAmount">0</div>
+            </div>
+          </a>
+          <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="bi bi-search"></i></button>
+        </div>
+
+        <div class="clock">
+            <span id="hours"></span>:
+            <span id="minutes"></span>:
+            <span id="seconds"></span>
+          </div>
+               
+    </div>
+    </div>
+
+
+    <div id="label" class="text-center"></div>
+
+    <div class="shopping-cart" id="shopping-cart"></div>
+
+  </body>
+
+  <script src="Scripts/data.js"></script>
+  <script src="Scripts/cart.js"></script>
+  </html>
